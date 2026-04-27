@@ -1895,6 +1895,7 @@ export function PortableTextEditor({
 			attributes: {
 				class:
 					"prose prose-sm sm:prose-base dark:prose-invert max-w-none focus:outline-none min-h-[200px] p-4",
+				dir: "auto",
 			},
 		}),
 		[],

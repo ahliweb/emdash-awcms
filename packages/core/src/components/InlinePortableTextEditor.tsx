@@ -1741,6 +1741,7 @@ export function InlinePortableTextEditor({
 		editorProps: {
 			attributes: {
 				class: "prose prose-sm sm:prose-base dark:prose-invert max-w-none emdash-inline-editor",
+				dir: "auto",
 			},
 		},
 		onUpdate: () => {
