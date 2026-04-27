@@ -59,7 +59,7 @@ msgid "{0, plural, one {(# item)} other {(# items)}}"
 msgstr ""
 
 #. placeholder {0}: seedInfo.collections
-#: packages/admin/src/components/SetupWizard.tsx:181
+#: packages/admin/src/components/SetupWizard.tsx:183
 msgid "{0, plural, one {# collection} other {# collections}}"
 msgstr ""
 
@@ -315,8 +315,9 @@ msgstr ""
 msgid "• URLs in your content are updated automatically"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:250
-#: packages/admin/src/components/SetupWizard.tsx:310
+#: packages/admin/src/components/SetupWizard.tsx:252
+#: packages/admin/src/components/SetupWizard.tsx:304
+#: packages/admin/src/components/SetupWizard.tsx:359
 #: packages/admin/src/components/WordPressImport.tsx:1431
 msgid "← Back"
 msgstr ""
@@ -409,7 +410,7 @@ msgstr ""
 msgid "Accept & Update"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:332
+#: packages/admin/src/components/SetupWizard.tsx:381
 msgid "Account"
 msgstr ""
 
@@ -694,7 +695,7 @@ msgstr ""
 msgid "Authentication error: {0}"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:253
+#: packages/admin/src/components/LoginPage.tsx:195
 msgid "Authentication error: {error}"
 msgstr "Authentifizierungsfehler: {error}"
 
@@ -764,8 +765,9 @@ msgstr ""
 msgid "Back to {collectionLabel} list"
 msgstr "Zurück zur Liste ({collectionLabel})"
 
-#: packages/admin/src/components/LoginPage.tsx:174
-#: packages/admin/src/components/LoginPage.tsx:210
+#: packages/admin/src/components/LoginPage.tsx:117
+#: packages/admin/src/components/LoginPage.tsx:153
+#: packages/admin/src/components/LoginPage.tsx:319
 #: packages/admin/src/components/SignupPage.tsx:280
 msgid "Back to login"
 msgstr "Zurück zur Anmeldung"
@@ -957,7 +959,7 @@ msgstr ""
 msgid "Check Site"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:158
+#: packages/admin/src/components/LoginPage.tsx:101
 #: packages/admin/src/components/SignupPage.tsx:129
 #: packages/admin/src/components/SignupPage.tsx:401
 msgid "Check your email"
@@ -971,6 +973,10 @@ msgstr ""
 msgid "Checking authentication..."
 msgstr ""
 
+#: packages/admin/src/components/SetupWizard.tsx:315
+msgid "Choose how to sign in"
+msgstr ""
+
 #: packages/admin/src/components/Settings.tsx:130
 msgid "Choose your preferred admin language"
 msgstr "Wähle deine bevorzugte Admin-Sprache"
@@ -979,7 +985,7 @@ msgstr "Wähle deine bevorzugte Admin-Sprache"
 msgid "Click the link in the email to continue setting up your account."
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:169
+#: packages/admin/src/components/LoginPage.tsx:112
 msgid "Click the link in the email to sign in."
 msgstr "Klicke auf den Link in der E-Mail, um dich anzumelden."
 
@@ -1185,8 +1191,8 @@ msgstr "Inhalte bearbeiten"
 msgid "Continue"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:175
-#: packages/admin/src/components/SetupWizard.tsx:258
+#: packages/admin/src/components/SetupWizard.tsx:177
+#: packages/admin/src/components/SetupWizard.tsx:260
 msgid "Continue →"
 msgstr ""
 
@@ -1291,7 +1297,7 @@ msgstr "Neues Token erstellen"
 msgid "Create one in WordPress: Users → Profile → Application Passwords"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:305
+#: packages/admin/src/components/SetupWizard.tsx:325
 msgid "Create Passkey"
 msgstr ""
 
@@ -1336,7 +1342,7 @@ msgstr ""
 msgid "Create Token"
 msgstr "Token erstellen"
 
-#: packages/admin/src/components/SetupWizard.tsx:505
+#: packages/admin/src/components/SetupWizard.tsx:571
 msgid "Create your account"
 msgstr ""
 
@@ -1724,7 +1730,7 @@ msgstr ""
 msgid "Domain updated"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:366
+#: packages/admin/src/components/LoginPage.tsx:340
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "Noch kein Konto? <0>Registrieren</0>"
 
@@ -1853,13 +1859,13 @@ msgstr "E-Mail"
 msgid "Email (optional)"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:183
+#: packages/admin/src/components/LoginPage.tsx:126
 #: packages/admin/src/components/SignupPage.tsx:65
 #: packages/admin/src/components/users/InviteUserModal.tsx:154
 msgid "Email address"
 msgstr "E-Mail-Adresse"
 
-#: packages/admin/src/components/SetupWizard.tsx:204
+#: packages/admin/src/components/SetupWizard.tsx:206
 #: packages/admin/src/components/SignupPage.tsx:48
 msgid "Email is required"
 msgstr ""
@@ -1965,6 +1971,10 @@ msgstr ""
 msgid "Enter the code from your terminal"
 msgstr ""
 
+#: packages/admin/src/components/LoginPage.tsx:333
+msgid "Enter your handle to sign in."
+msgstr ""
+
 #: packages/admin/src/components/WordPressImport.tsx:1289
 msgid "Enter your WordPress credentials to import content directly."
 msgstr ""
@@ -1975,7 +1985,7 @@ msgstr ""
 
 #: packages/admin/src/components/MenuEditor.tsx:83
 #: packages/admin/src/components/MenuEditor.tsx:122
-#: packages/admin/src/components/SetupWizard.tsx:484
+#: packages/admin/src/components/SetupWizard.tsx:550
 msgid "Error"
 msgstr ""
 
@@ -2089,7 +2099,7 @@ msgstr ""
 msgid "Failed to load revisions"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:486
+#: packages/admin/src/components/SetupWizard.tsx:552
 msgid "Failed to load setup"
 msgstr ""
 
@@ -2120,8 +2130,8 @@ msgstr ""
 msgid "Failed to save settings"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:127
-#: packages/admin/src/components/LoginPage.tsx:132
+#: packages/admin/src/components/LoginPage.tsx:70
+#: packages/admin/src/components/LoginPage.tsx:75
 msgid "Failed to send magic link"
 msgstr "Magic Link konnte nicht gesendet werden"
 
@@ -2328,7 +2338,7 @@ msgstr ""
 msgid "ID"
 msgstr "ID"
 
-#: packages/admin/src/components/LoginPage.tsx:160
+#: packages/admin/src/components/LoginPage.tsx:103
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Wenn es ein Konto für <0>{email}</0> gibt, haben wir dir einen Anmeldelink geschickt."
 
@@ -2448,7 +2458,7 @@ msgstr ""
 msgid "Importing Media"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:163
+#: packages/admin/src/components/SetupWizard.tsx:165
 msgid "Include sample content (recommended for new sites)"
 msgstr ""
 
@@ -2561,7 +2571,7 @@ msgstr ""
 msgid "Item updated"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:238
+#: packages/admin/src/components/SetupWizard.tsx:240
 #: packages/admin/src/components/SignupPage.tsx:204
 msgid "Jane Doe"
 msgstr ""
@@ -2585,7 +2595,7 @@ msgstr ""
 msgid "Label"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:379
+#: packages/admin/src/components/LoginPage.tsx:353
 #: packages/admin/src/components/Settings.tsx:129
 #: packages/admin/src/components/Settings.tsx:134
 msgid "Language"
@@ -2725,7 +2735,7 @@ msgstr ""
 msgid "Loading settings..."
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:473
+#: packages/admin/src/components/SetupWizard.tsx:539
 msgid "Loading setup..."
 msgstr ""
 
@@ -3021,7 +3031,7 @@ msgstr ""
 msgid "Multiple choices from options"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:145
+#: packages/admin/src/components/SetupWizard.tsx:147
 msgid "My Awesome Blog"
 msgstr ""
 
@@ -3403,7 +3413,7 @@ msgstr ""
 msgid "Or click to browse. Accepts .xml files exported from WordPress."
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:321
+#: packages/admin/src/components/LoginPage.tsx:269
 msgid "Or continue with"
 msgstr "Oder fortfahren mit"
 
@@ -3462,10 +3472,6 @@ msgstr ""
 msgid "Pass"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:333
-msgid "Passkey"
-msgstr ""
-
 #: packages/admin/src/components/settings/SecuritySettings.tsx:98
 msgid "Passkey added successfully"
 msgstr ""
@@ -3505,10 +3511,6 @@ msgstr ""
 
 #: packages/admin/src/components/SignupPage.tsx:212
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
-msgstr ""
-
-#: packages/admin/src/components/SetupWizard.tsx:297
-msgid "Passkeys are more secure than passwords. You'll use your device's biometrics, PIN, or security key to sign in."
 msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:303
@@ -3558,12 +3560,16 @@ msgstr "{title} endgültig löschen"
 msgid "Permissions"
 msgstr ""
 
+#: packages/admin/src/components/SetupWizard.tsx:317
+msgid "Pick any method to create your admin account."
+msgstr ""
+
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:313
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:310
 msgid "Plain"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:206
+#: packages/admin/src/components/SetupWizard.tsx:208
 msgid "Please enter a valid email"
 msgstr ""
 
@@ -3637,7 +3643,7 @@ msgid "Preparing to download files from WordPress..."
 msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:166
-#: packages/admin/src/components/SetupWizard.tsx:258
+#: packages/admin/src/components/SetupWizard.tsx:260
 msgid "Preparing..."
 msgstr ""
 
@@ -4264,7 +4270,7 @@ msgstr "Abschnitte"
 msgid "secure context"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:506
+#: packages/admin/src/components/SetupWizard.tsx:572
 msgid "Secure your account"
 msgstr ""
 
@@ -4388,7 +4394,7 @@ msgstr ""
 msgid "Send Invite"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:206
+#: packages/admin/src/components/LoginPage.tsx:149
 msgid "Send magic link"
 msgstr "Magic Link senden"
 
@@ -4404,7 +4410,7 @@ msgstr ""
 msgid "Send Test Email"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:206
+#: packages/admin/src/components/LoginPage.tsx:149
 #: packages/admin/src/components/settings/EmailSettings.tsx:162
 #: packages/admin/src/components/SignupPage.tsx:87
 #: packages/admin/src/components/SignupPage.tsx:150
@@ -4440,15 +4446,11 @@ msgstr ""
 msgid "Set a custom display size for this image instance."
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:295
-msgid "Set up your passkey"
-msgstr ""
-
-#: packages/admin/src/components/SetupWizard.tsx:504
+#: packages/admin/src/components/SetupWizard.tsx:570
 msgid "Set up your site"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:175
+#: packages/admin/src/components/SetupWizard.tsx:177
 msgid "Setting up..."
 msgstr ""
 
@@ -4496,24 +4498,35 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
+#: packages/admin/src/components/SetupWizard.tsx:382
+msgid "Sign In"
+msgstr ""
+
 #: packages/admin/src/components/SignupPage.tsx:269
 msgid "Sign in instead"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:291
+#: packages/admin/src/components/LoginPage.tsx:240
 msgid "Sign in to your site"
 msgstr "Melde dich bei deiner Website an"
 
-#: packages/admin/src/components/LoginPage.tsx:292
+#. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
+#. placeholder {0}: provider.label
+#: packages/admin/src/components/LoginPage.tsx:239
+#: packages/admin/src/components/SetupWizard.tsx:291
+msgid "Sign in with {0}"
+msgstr ""
+
+#: packages/admin/src/components/LoginPage.tsx:237
 msgid "Sign in with email"
 msgstr "Mit E-Mail anmelden"
 
-#: packages/admin/src/components/LoginPage.tsx:348
+#: packages/admin/src/components/LoginPage.tsx:298
 msgid "Sign in with email link"
 msgstr "Mit E-Mail-Link anmelden"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:312
+#: packages/admin/src/components/LoginPage.tsx:260
 msgid "Sign in with Passkey"
 msgstr "Mit Passkey anmelden"
 
@@ -4530,7 +4543,7 @@ msgstr ""
 msgid "Single line text input"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:331
+#: packages/admin/src/components/SetupWizard.tsx:380
 msgid "Site"
 msgstr ""
 
@@ -4542,12 +4555,12 @@ msgstr ""
 msgid "Site identity, logo, favicon, and reading preferences"
 msgstr "Website-Identität, Logo, Favicon und Leseeinstellungen"
 
-#: packages/admin/src/components/SetupWizard.tsx:329
+#: packages/admin/src/components/SetupWizard.tsx:378
 msgid "Site Settings"
 msgstr ""
 
 #: packages/admin/src/components/settings/GeneralSettings.tsx:156
-#: packages/admin/src/components/SetupWizard.tsx:141
+#: packages/admin/src/components/SetupWizard.tsx:143
 msgid "Site Title"
 msgstr ""
 
@@ -4555,7 +4568,7 @@ msgstr ""
 msgid "Site title & tagline"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:125
+#: packages/admin/src/components/SetupWizard.tsx:127
 msgid "Site title is required"
 msgstr ""
 
@@ -4699,7 +4712,7 @@ msgid "System ({resolvedLabel})"
 msgstr "System ({resolvedLabel})"
 
 #: packages/admin/src/components/settings/GeneralSettings.tsx:162
-#: packages/admin/src/components/SetupWizard.tsx:152
+#: packages/admin/src/components/SetupWizard.tsx:154
 msgid "Tagline"
 msgstr ""
 
@@ -4737,7 +4750,7 @@ msgstr ""
 msgid "Taxonomy not found:"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:180
+#: packages/admin/src/components/SetupWizard.tsx:182
 msgid "Template:"
 msgstr ""
 
@@ -4770,7 +4783,7 @@ msgstr ""
 msgid "The invited user will have this role once they complete registration."
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:170
+#: packages/admin/src/components/LoginPage.tsx:113
 #: packages/admin/src/components/SignupPage.tsx:138
 msgid "The link will expire in 15 minutes."
 msgstr "Der Link ist 15 Minuten gültig."
@@ -4895,7 +4908,7 @@ msgstr ""
 msgid "This will revert to the published version. Your draft changes will be lost."
 msgstr "Dies setzt alles auf die veröffentlichte Version zurück. Deine Entwurfsänderungen gehen verloren."
 
-#: packages/admin/src/components/SetupWizard.tsx:156
+#: packages/admin/src/components/SetupWizard.tsx:158
 msgid "Thoughts, tutorials, and more"
 msgstr ""
 
@@ -5261,7 +5274,7 @@ msgstr ""
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:359
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Use your registered passkey to sign in securely."
 msgstr "Verwende deinen registrierten Passkey, um dich sicher anzumelden."
 
@@ -5379,7 +5392,7 @@ msgstr ""
 msgid "We'll check what import options are available for your site."
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:360
+#: packages/admin/src/components/LoginPage.tsx:331
 msgid "We'll send you a link to sign in without a password."
 msgstr "Wir schicken dir einen Link, um dich ohne Passwort anzumelden."
 
@@ -5516,7 +5529,7 @@ msgstr ""
 msgid "You'll be signing up as"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:509
+#: packages/admin/src/components/SetupWizard.tsx:575
 msgid "You're signed in via Cloudflare Access"
 msgstr ""
 
@@ -5525,7 +5538,7 @@ msgid "you@company.com"
 msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:336
-#: packages/admin/src/components/SetupWizard.tsx:226
+#: packages/admin/src/components/SetupWizard.tsx:228
 msgid "you@example.com"
 msgstr ""
 
@@ -5543,7 +5556,7 @@ msgstr ""
 msgid "Your device doesn't support the required security features."
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:222
+#: packages/admin/src/components/SetupWizard.tsx:224
 msgid "Your Email"
 msgstr ""
 
@@ -5563,7 +5576,7 @@ msgstr ""
 msgid "Your LinkedIn profile username"
 msgstr ""
 
-#: packages/admin/src/components/SetupWizard.tsx:234
+#: packages/admin/src/components/SetupWizard.tsx:236
 msgid "Your Name"
 msgstr ""
 

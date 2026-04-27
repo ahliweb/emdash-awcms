@@ -59,7 +59,7 @@ msgid "{0, plural, one {(# item)} other {(# items)}}"
 msgstr "{0, plural, one {(# 个项目)} other {(# 个项目)}}"
 
 #. placeholder {0}: seedInfo.collections
-#: packages/admin/src/components/SetupWizard.tsx:181
+#: packages/admin/src/components/SetupWizard.tsx:183
 msgid "{0, plural, one {# collection} other {# collections}}"
 msgstr "{0, plural, one {# 个合集} other {# 个合集}}"
 
@@ -315,8 +315,9 @@ msgstr "• 已上传到您的 EmDash 媒体存储"
 msgid "• URLs in your content are updated automatically"
 msgstr "• 您内容中的 URL 将自动更新"
 
-#: packages/admin/src/components/SetupWizard.tsx:250
-#: packages/admin/src/components/SetupWizard.tsx:310
+#: packages/admin/src/components/SetupWizard.tsx:252
+#: packages/admin/src/components/SetupWizard.tsx:304
+#: packages/admin/src/components/SetupWizard.tsx:359
 #: packages/admin/src/components/WordPressImport.tsx:1431
 msgid "← Back"
 msgstr "← 返回"
@@ -409,7 +410,7 @@ msgstr "接受并安装"
 msgid "Accept & Update"
 msgstr "接受并更新"
 
-#: packages/admin/src/components/SetupWizard.tsx:332
+#: packages/admin/src/components/SetupWizard.tsx:381
 msgid "Account"
 msgstr "账户"
 
@@ -694,7 +695,7 @@ msgstr "将 WordPress 作者分配给 EmDash 用户。文章将归属于所选�
 msgid "Authentication error: {0}"
 msgstr "认证错误：{0}"
 
-#: packages/admin/src/components/LoginPage.tsx:253
+#: packages/admin/src/components/LoginPage.tsx:195
 msgid "Authentication error: {error}"
 msgstr "认证错误：{error}"
 
@@ -764,8 +765,9 @@ msgstr "返回"
 msgid "Back to {collectionLabel} list"
 msgstr "返回到 {collectionLabel} 列表"
 
-#: packages/admin/src/components/LoginPage.tsx:174
-#: packages/admin/src/components/LoginPage.tsx:210
+#: packages/admin/src/components/LoginPage.tsx:117
+#: packages/admin/src/components/LoginPage.tsx:153
+#: packages/admin/src/components/LoginPage.tsx:319
 #: packages/admin/src/components/SignupPage.tsx:280
 msgid "Back to login"
 msgstr "返回登录"
@@ -957,7 +959,7 @@ msgstr "检查更新"
 msgid "Check Site"
 msgstr "检查站点"
 
-#: packages/admin/src/components/LoginPage.tsx:158
+#: packages/admin/src/components/LoginPage.tsx:101
 #: packages/admin/src/components/SignupPage.tsx:129
 #: packages/admin/src/components/SignupPage.tsx:401
 msgid "Check your email"
@@ -971,6 +973,10 @@ msgstr "正在检查 {urlInput}..."
 msgid "Checking authentication..."
 msgstr "正在检查认证..."
 
+#: packages/admin/src/components/SetupWizard.tsx:315
+msgid "Choose how to sign in"
+msgstr ""
+
 #: packages/admin/src/components/Settings.tsx:130
 msgid "Choose your preferred admin language"
 msgstr "选择您的首选管理语言"
@@ -979,7 +985,7 @@ msgstr "选择您的首选管理语言"
 msgid "Click the link in the email to continue setting up your account."
 msgstr "点击邮件中的链接以继续设置您的账户。"
 
-#: packages/admin/src/components/LoginPage.tsx:169
+#: packages/admin/src/components/LoginPage.tsx:112
 msgid "Click the link in the email to sign in."
 msgstr "点击邮件中的链接即可登录。"
 
@@ -1185,8 +1191,8 @@ msgstr "内容写入"
 msgid "Continue"
 msgstr "继续"
 
-#: packages/admin/src/components/SetupWizard.tsx:175
-#: packages/admin/src/components/SetupWizard.tsx:258
+#: packages/admin/src/components/SetupWizard.tsx:177
+#: packages/admin/src/components/SetupWizard.tsx:260
 msgid "Continue →"
 msgstr "继续 →"
 
@@ -1291,7 +1297,7 @@ msgstr "创建新令牌"
 msgid "Create one in WordPress: Users → Profile → Application Passwords"
 msgstr "在 WordPress 中创建：用户 → 个人资料 → 应用程序密码"
 
-#: packages/admin/src/components/SetupWizard.tsx:305
+#: packages/admin/src/components/SetupWizard.tsx:325
 msgid "Create Passkey"
 msgstr "创建通行密钥"
 
@@ -1336,7 +1342,7 @@ msgstr "创建分类"
 msgid "Create Token"
 msgstr "创建令牌"
 
-#: packages/admin/src/components/SetupWizard.tsx:505
+#: packages/admin/src/components/SetupWizard.tsx:571
 msgid "Create your account"
 msgstr "创建您的账户"
 
@@ -1724,7 +1730,7 @@ msgstr "域名已移除"
 msgid "Domain updated"
 msgstr "域名已更新"
 
-#: packages/admin/src/components/LoginPage.tsx:366
+#: packages/admin/src/components/LoginPage.tsx:340
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "还没有账号？<0>立即注册</0>"
 
@@ -1853,13 +1859,13 @@ msgstr "邮箱"
 msgid "Email (optional)"
 msgstr "邮箱（可选）"
 
-#: packages/admin/src/components/LoginPage.tsx:183
+#: packages/admin/src/components/LoginPage.tsx:126
 #: packages/admin/src/components/SignupPage.tsx:65
 #: packages/admin/src/components/users/InviteUserModal.tsx:154
 msgid "Email address"
 msgstr "邮箱地址"
 
-#: packages/admin/src/components/SetupWizard.tsx:204
+#: packages/admin/src/components/SetupWizard.tsx:206
 #: packages/admin/src/components/SignupPage.tsx:48
 msgid "Email is required"
 msgstr "邮箱为必填项"
@@ -1965,6 +1971,10 @@ msgstr "输入名称"
 msgid "Enter the code from your terminal"
 msgstr "输入终端中的代码"
 
+#: packages/admin/src/components/LoginPage.tsx:333
+msgid "Enter your handle to sign in."
+msgstr ""
+
 #: packages/admin/src/components/WordPressImport.tsx:1289
 msgid "Enter your WordPress credentials to import content directly."
 msgstr "输入您的 WordPress 凭据以直接导入内容。"
@@ -1975,7 +1985,7 @@ msgstr "输入您的 WordPress 站点 URL"
 
 #: packages/admin/src/components/MenuEditor.tsx:83
 #: packages/admin/src/components/MenuEditor.tsx:122
-#: packages/admin/src/components/SetupWizard.tsx:484
+#: packages/admin/src/components/SetupWizard.tsx:550
 msgid "Error"
 msgstr "错误"
 
@@ -2089,7 +2099,7 @@ msgstr "加载插件失败：{0}"
 msgid "Failed to load revisions"
 msgstr "加载修订历史失败"
 
-#: packages/admin/src/components/SetupWizard.tsx:486
+#: packages/admin/src/components/SetupWizard.tsx:552
 msgid "Failed to load setup"
 msgstr "加载设置失败"
 
@@ -2120,8 +2130,8 @@ msgstr "保存失败"
 msgid "Failed to save settings"
 msgstr "保存设置失败"
 
-#: packages/admin/src/components/LoginPage.tsx:127
-#: packages/admin/src/components/LoginPage.tsx:132
+#: packages/admin/src/components/LoginPage.tsx:70
+#: packages/admin/src/components/LoginPage.tsx:75
 msgid "Failed to send magic link"
 msgstr "发送免密登录链接失败"
 
@@ -2328,7 +2338,7 @@ msgstr "由于图像审计，图标已模糊"
 msgid "ID"
 msgstr "ID"
 
-#: packages/admin/src/components/LoginPage.tsx:160
+#: packages/admin/src/components/LoginPage.tsx:103
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "如果存在与 <0>{email}</0> 关联的账号，我们已发送登录链接。"
 
@@ -2448,7 +2458,7 @@ msgstr "正在导入内容..."
 msgid "Importing Media"
 msgstr "正在导入媒体"
 
-#: packages/admin/src/components/SetupWizard.tsx:163
+#: packages/admin/src/components/SetupWizard.tsx:165
 msgid "Include sample content (recommended for new sites)"
 msgstr "包含示例内容（推荐新站点使用）"
 
@@ -2561,7 +2571,7 @@ msgstr "项目已删除"
 msgid "Item updated"
 msgstr "项目已更新"
 
-#: packages/admin/src/components/SetupWizard.tsx:238
+#: packages/admin/src/components/SetupWizard.tsx:240
 #: packages/admin/src/components/SignupPage.tsx:204
 msgid "Jane Doe"
 msgstr "张三"
@@ -2585,7 +2595,7 @@ msgstr "关键词"
 msgid "Label"
 msgstr "标签"
 
-#: packages/admin/src/components/LoginPage.tsx:379
+#: packages/admin/src/components/LoginPage.tsx:353
 #: packages/admin/src/components/Settings.tsx:129
 #: packages/admin/src/components/Settings.tsx:134
 msgid "Language"
@@ -2725,7 +2735,7 @@ msgstr "正在加载区块..."
 msgid "Loading settings..."
 msgstr "正在加载设置..."
 
-#: packages/admin/src/components/SetupWizard.tsx:473
+#: packages/admin/src/components/SetupWizard.tsx:539
 msgid "Loading setup..."
 msgstr "正在加载设置..."
 
@@ -3021,7 +3031,7 @@ msgstr "多行纯文本"
 msgid "Multiple choices from options"
 msgstr "从选项中选择多个"
 
-#: packages/admin/src/components/SetupWizard.tsx:145
+#: packages/admin/src/components/SetupWizard.tsx:147
 msgid "My Awesome Blog"
 msgstr "我的精彩博客"
 
@@ -3403,7 +3413,7 @@ msgstr "或从库中选择"
 msgid "Or click to browse. Accepts .xml files exported from WordPress."
 msgstr "或点击浏览。接受从 WordPress 导出的 .xml 文件。"
 
-#: packages/admin/src/components/LoginPage.tsx:321
+#: packages/admin/src/components/LoginPage.tsx:269
 msgid "Or continue with"
 msgstr "或继续使用"
 
@@ -3462,10 +3472,6 @@ msgstr "重定向循环的一部分"
 msgid "Pass"
 msgstr "通过"
 
-#: packages/admin/src/components/SetupWizard.tsx:333
-msgid "Passkey"
-msgstr "通行密钥"
-
 #: packages/admin/src/components/settings/SecuritySettings.tsx:98
 msgid "Passkey added successfully"
 msgstr "通行密钥添加成功"
@@ -3506,10 +3512,6 @@ msgstr "通行密钥是一种安全的无密码登录方式。您可以为不同
 #: packages/admin/src/components/SignupPage.tsx:212
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "通行密钥是一种安全的无密码登录方式，使用设备的生物识别、PIN 码或安全密钥登录。"
-
-#: packages/admin/src/components/SetupWizard.tsx:297
-msgid "Passkeys are more secure than passwords. You'll use your device's biometrics, PIN, or security key to sign in."
-msgstr "通行密钥比密码更安全。您将使用设备的生物识别、PIN 码或安全密钥登录。"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:303
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:300
@@ -3558,12 +3560,16 @@ msgstr "永久删除 {title}"
 msgid "Permissions"
 msgstr "权限"
 
+#: packages/admin/src/components/SetupWizard.tsx:317
+msgid "Pick any method to create your admin account."
+msgstr ""
+
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:313
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:310
 msgid "Plain"
 msgstr "普通"
 
-#: packages/admin/src/components/SetupWizard.tsx:206
+#: packages/admin/src/components/SetupWizard.tsx:208
 msgid "Please enter a valid email"
 msgstr "请输入有效的邮箱"
 
@@ -3637,7 +3643,7 @@ msgid "Preparing to download files from WordPress..."
 msgstr "正在准备从 WordPress 下载文件..."
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:166
-#: packages/admin/src/components/SetupWizard.tsx:258
+#: packages/admin/src/components/SetupWizard.tsx:260
 msgid "Preparing..."
 msgstr "正在准备..."
 
@@ -4264,7 +4270,7 @@ msgstr "区块"
 msgid "secure context"
 msgstr "安全上下文"
 
-#: packages/admin/src/components/SetupWizard.tsx:506
+#: packages/admin/src/components/SetupWizard.tsx:572
 msgid "Secure your account"
 msgstr "保护您的账户"
 
@@ -4388,7 +4394,7 @@ msgstr "向新团队成员发送邀请邮件。"
 msgid "Send Invite"
 msgstr "发送邀请"
 
-#: packages/admin/src/components/LoginPage.tsx:206
+#: packages/admin/src/components/LoginPage.tsx:149
 msgid "Send magic link"
 msgstr "发送免密登录链接"
 
@@ -4404,7 +4410,7 @@ msgstr "发送测试"
 msgid "Send Test Email"
 msgstr "发送测试邮件"
 
-#: packages/admin/src/components/LoginPage.tsx:206
+#: packages/admin/src/components/LoginPage.tsx:149
 #: packages/admin/src/components/settings/EmailSettings.tsx:162
 #: packages/admin/src/components/SignupPage.tsx:87
 #: packages/admin/src/components/SignupPage.tsx:150
@@ -4440,15 +4446,11 @@ msgstr "SEO 标题"
 msgid "Set a custom display size for this image instance."
 msgstr "为此图片实例设置自定义显示尺寸。"
 
-#: packages/admin/src/components/SetupWizard.tsx:295
-msgid "Set up your passkey"
-msgstr "设置您的通行密钥"
-
-#: packages/admin/src/components/SetupWizard.tsx:504
+#: packages/admin/src/components/SetupWizard.tsx:570
 msgid "Set up your site"
 msgstr "设置您的站点"
 
-#: packages/admin/src/components/SetupWizard.tsx:175
+#: packages/admin/src/components/SetupWizard.tsx:177
 msgid "Setting up..."
 msgstr "正在设置..."
 
@@ -4496,24 +4498,35 @@ msgstr "悬停在图片上时显示。"
 msgid "Sign in"
 msgstr "登录"
 
+#: packages/admin/src/components/SetupWizard.tsx:382
+msgid "Sign In"
+msgstr ""
+
 #: packages/admin/src/components/SignupPage.tsx:269
 msgid "Sign in instead"
 msgstr "改为登录"
 
-#: packages/admin/src/components/LoginPage.tsx:291
+#: packages/admin/src/components/LoginPage.tsx:240
 msgid "Sign in to your site"
 msgstr "登录到您的网站"
 
-#: packages/admin/src/components/LoginPage.tsx:292
+#. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
+#. placeholder {0}: provider.label
+#: packages/admin/src/components/LoginPage.tsx:239
+#: packages/admin/src/components/SetupWizard.tsx:291
+msgid "Sign in with {0}"
+msgstr ""
+
+#: packages/admin/src/components/LoginPage.tsx:237
 msgid "Sign in with email"
 msgstr "使用邮箱登录"
 
-#: packages/admin/src/components/LoginPage.tsx:348
+#: packages/admin/src/components/LoginPage.tsx:298
 msgid "Sign in with email link"
 msgstr "使用邮箱链接登录"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:312
+#: packages/admin/src/components/LoginPage.tsx:260
 msgid "Sign in with Passkey"
 msgstr "使用通行密钥登录"
 
@@ -4530,7 +4543,7 @@ msgstr "从选项中选择一个"
 msgid "Single line text input"
 msgstr "单行文本输入"
 
-#: packages/admin/src/components/SetupWizard.tsx:331
+#: packages/admin/src/components/SetupWizard.tsx:380
 msgid "Site"
 msgstr "站点"
 
@@ -4542,12 +4555,12 @@ msgstr "站点标识"
 msgid "Site identity, logo, favicon, and reading preferences"
 msgstr "网站标识、徽标、网站图标和阅读偏好"
 
-#: packages/admin/src/components/SetupWizard.tsx:329
+#: packages/admin/src/components/SetupWizard.tsx:378
 msgid "Site Settings"
 msgstr "站点设置"
 
 #: packages/admin/src/components/settings/GeneralSettings.tsx:156
-#: packages/admin/src/components/SetupWizard.tsx:141
+#: packages/admin/src/components/SetupWizard.tsx:143
 msgid "Site Title"
 msgstr "站点标题"
 
@@ -4555,7 +4568,7 @@ msgstr "站点标题"
 msgid "Site title & tagline"
 msgstr "站点标题和副标题"
 
-#: packages/admin/src/components/SetupWizard.tsx:125
+#: packages/admin/src/components/SetupWizard.tsx:127
 msgid "Site title is required"
 msgstr "站点标题为必填项"
 
@@ -4699,7 +4712,7 @@ msgid "System ({resolvedLabel})"
 msgstr "跟随系统（{resolvedLabel}）"
 
 #: packages/admin/src/components/settings/GeneralSettings.tsx:162
-#: packages/admin/src/components/SetupWizard.tsx:152
+#: packages/admin/src/components/SetupWizard.tsx:154
 msgid "Tagline"
 msgstr "副标题"
 
@@ -4737,7 +4750,7 @@ msgstr "分类已创建"
 msgid "Taxonomy not found:"
 msgstr "未找到分类："
 
-#: packages/admin/src/components/SetupWizard.tsx:180
+#: packages/admin/src/components/SetupWizard.tsx:182
 msgid "Template:"
 msgstr "模板："
 
@@ -4770,7 +4783,7 @@ msgstr "以下表格包含内容但未注册为合集。注册它们以便在管
 msgid "The invited user will have this role once they complete registration."
 msgstr "被邀请的用户完成注册后将拥有此角色。"
 
-#: packages/admin/src/components/LoginPage.tsx:170
+#: packages/admin/src/components/LoginPage.tsx:113
 #: packages/admin/src/components/SignupPage.tsx:138
 msgid "The link will expire in 15 minutes."
 msgstr "链接将在 15 分钟后过期。"
@@ -4895,7 +4908,7 @@ msgstr "这将从您的站点移除插件及其包。"
 msgid "This will revert to the published version. Your draft changes will be lost."
 msgstr "这将恢复到已发布的版本。您的草稿更改将会丢失。"
 
-#: packages/admin/src/components/SetupWizard.tsx:156
+#: packages/admin/src/components/SetupWizard.tsx:158
 msgid "Thoughts, tutorials, and more"
 msgstr "想法、教程等"
 
@@ -5261,7 +5274,7 @@ msgstr "在路径中使用 [param] 或 [...rest] 进行模式匹配。"
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "使用设备的生物识别认证、安全密钥或 PIN 码登录。"
 
-#: packages/admin/src/components/LoginPage.tsx:359
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Use your registered passkey to sign in securely."
 msgstr "使用您注册的通行密钥安全登录。"
 
@@ -5379,7 +5392,7 @@ msgstr "我们无法连接到位于 {0} 的 WordPress 站点。这可能意味�
 msgid "We'll check what import options are available for your site."
 msgstr "我们将检查您的站点有哪些导入选项可用。"
 
-#: packages/admin/src/components/LoginPage.tsx:360
+#: packages/admin/src/components/LoginPage.tsx:331
 msgid "We'll send you a link to sign in without a password."
 msgstr "我们将向您发送一个无需密码即可登录的链接。"
 
@@ -5516,7 +5529,7 @@ msgstr "您将被重定向到 WordPress 以授权连接。"
 msgid "You'll be signing up as"
 msgstr "您将注册为"
 
-#: packages/admin/src/components/SetupWizard.tsx:509
+#: packages/admin/src/components/SetupWizard.tsx:575
 msgid "You're signed in via Cloudflare Access"
 msgstr "您已通过 Cloudflare Access 登录"
 
@@ -5525,7 +5538,7 @@ msgid "you@company.com"
 msgstr "you@company.com"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:336
-#: packages/admin/src/components/SetupWizard.tsx:226
+#: packages/admin/src/components/SetupWizard.tsx:228
 msgid "you@example.com"
 msgstr "you@example.com"
 
@@ -5543,7 +5556,7 @@ msgstr "您的浏览器不支持通行密钥。请使用现代浏览器，如 Ch
 msgid "Your device doesn't support the required security features."
 msgstr "您的设备不支持所需的安全功能。"
 
-#: packages/admin/src/components/SetupWizard.tsx:222
+#: packages/admin/src/components/SetupWizard.tsx:224
 msgid "Your Email"
 msgstr "您的邮箱"
 
@@ -5563,7 +5576,7 @@ msgstr "您的 Instagram 用户名"
 msgid "Your LinkedIn profile username"
 msgstr "您的 LinkedIn 个人资料用户名"
 
-#: packages/admin/src/components/SetupWizard.tsx:234
+#: packages/admin/src/components/SetupWizard.tsx:236
 msgid "Your Name"
 msgstr "您的姓名"
 
