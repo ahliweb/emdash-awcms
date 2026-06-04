@@ -12,7 +12,7 @@
     "generate-types": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.1.7",
+    "@astrojs/cloudflare": "^13.1.10",
     "@astrojs/starlight": "^0.38.2",
     "@astrojs/starlight-tailwind": "^5.0.0",
     "@modelcontextprotocol/sdk": "^1.29.0",
