@@ -902,8 +902,8 @@ msgstr "应用程序密码"
 msgid "Apply"
 msgstr "应用"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:170
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:171
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:181
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:182
 msgid "Apply language"
 msgstr "应用语言"
 
@@ -1239,8 +1239,8 @@ msgstr "可以查看内容"
 #: packages/admin/src/components/ContentList.tsx:851
 #: packages/admin/src/components/ContentList.tsx:922
 #: packages/admin/src/components/ContentPickerModal.tsx:248
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:182
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:183
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:193
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:194
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:586
 #: packages/admin/src/components/editor/ImageNode.tsx:252
 #: packages/admin/src/components/editor/ImageNode.tsx:253
@@ -4046,7 +4046,7 @@ msgstr "标签（复数）"
 msgid "Label (Singular)"
 msgstr "标签（单数）"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:151
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:162
 #: packages/admin/src/components/LoginPage.tsx:345
 #: packages/admin/src/components/Settings.tsx:129
 #: packages/admin/src/components/Settings.tsx:134
@@ -4873,7 +4873,7 @@ msgstr "无限制"
 msgid "No linked user"
 msgstr "无关联用户"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:160
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:171
 msgid "No matches"
 msgstr "无匹配项"
 
@@ -6465,12 +6465,12 @@ msgstr "SEO 标题"
 msgid "Set a custom display size for this image instance."
 msgstr "为此图片实例设置自定义显示尺寸。"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:196
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:200
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:146
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:150
 msgid "Set language"
 msgstr "设置语言"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:197
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:147
 msgid "Set language (current: {label})"
 msgstr "设置语言（当前：{label}）"
 

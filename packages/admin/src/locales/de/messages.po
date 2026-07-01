@@ -902,8 +902,8 @@ msgstr "Anwendungspasswort"
 msgid "Apply"
 msgstr "Anwenden"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:170
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:171
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:181
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:182
 msgid "Apply language"
 msgstr "Sprache speichern"
 
@@ -1239,8 +1239,8 @@ msgstr "Kann Inhalte ansehen"
 #: packages/admin/src/components/ContentList.tsx:851
 #: packages/admin/src/components/ContentList.tsx:922
 #: packages/admin/src/components/ContentPickerModal.tsx:248
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:182
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:183
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:193
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:194
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:586
 #: packages/admin/src/components/editor/ImageNode.tsx:252
 #: packages/admin/src/components/editor/ImageNode.tsx:253
@@ -4043,7 +4043,7 @@ msgstr "Bezeichnung (Plural)"
 msgid "Label (Singular)"
 msgstr "Bezeichnung (Singular)"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:151
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:162
 #: packages/admin/src/components/LoginPage.tsx:345
 #: packages/admin/src/components/Settings.tsx:129
 #: packages/admin/src/components/Settings.tsx:134
@@ -4870,7 +4870,7 @@ msgstr "Kein Limit"
 msgid "No linked user"
 msgstr "Kein zugeordneter Benutzer"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:160
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:171
 msgid "No matches"
 msgstr "Keine Treffer"
 
@@ -6462,12 +6462,12 @@ msgstr "SEO-Titel"
 msgid "Set a custom display size for this image instance."
 msgstr "Lege eine benutzerdefinierte Anzeigegröße für dieses Bild fest."
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:196
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:200
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:146
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:150
 msgid "Set language"
 msgstr "Sprache speichern"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:197
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:147
 msgid "Set language (current: {label})"
 msgstr "Sprache speichern (aktuell: {label})"
 

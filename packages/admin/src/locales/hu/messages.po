@@ -902,8 +902,8 @@ msgstr "Alkalmazásjelszó"
 msgid "Apply"
 msgstr "Alkalmaz"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:170
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:171
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:181
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:182
 msgid "Apply language"
 msgstr "Nyelv alkalmazása"
 
@@ -1239,8 +1239,8 @@ msgstr "Tartalmat tekinthet meg"
 #: packages/admin/src/components/ContentList.tsx:851
 #: packages/admin/src/components/ContentList.tsx:922
 #: packages/admin/src/components/ContentPickerModal.tsx:248
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:182
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:183
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:193
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:194
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:586
 #: packages/admin/src/components/editor/ImageNode.tsx:252
 #: packages/admin/src/components/editor/ImageNode.tsx:253
@@ -4046,7 +4046,7 @@ msgstr "Elnevezés (többes szám)"
 msgid "Label (Singular)"
 msgstr "Elnevezés (egyes szám)"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:151
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:162
 #: packages/admin/src/components/LoginPage.tsx:345
 #: packages/admin/src/components/Settings.tsx:129
 #: packages/admin/src/components/Settings.tsx:134
@@ -4873,7 +4873,7 @@ msgstr "Nincs korlát"
 msgid "No linked user"
 msgstr "Nincs szerzőhöz kapcsolt felhasználó"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:160
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:171
 msgid "No matches"
 msgstr "Nincs találat"
 
@@ -6465,12 +6465,12 @@ msgstr "SEO cím"
 msgid "Set a custom display size for this image instance."
 msgstr "Egyéni megjelenítési méret beállítása ehhez a képpéldányhoz."
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:196
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:200
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:146
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:150
 msgid "Set language"
 msgstr "Nyelv beállítása"
 
-#: packages/admin/src/components/editor/CodeBlockNode.tsx:197
+#: packages/admin/src/components/editor/CodeBlockNode.tsx:147
 msgid "Set language (current: {label})"
 msgstr "Nyelv beállítása (jelenlegi: {label})"
 
