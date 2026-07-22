@@ -22,7 +22,7 @@
 		"@cloudflare/shell": "^0.4.0",
 		"@flue/runtime": "1.0.0-beta.9",
 		"agents": "^0.14.5",
-		"hono": "^4.12.23",
+		"hono": "^4.12.27",
 		"valibot": "^1.4.1"
 	}
 }
