@@ -70,7 +70,7 @@ catalog:
   "@arethetypeswrong/cli": ^0.18.2
   "@astrojs/check": ^0.9.7
   "@astrojs/cloudflare": ^14.0.0
-  "@astrojs/node": ^11.0.0
+  "@astrojs/node": ^11.0.2
   "@astrojs/react": ^6.0.0
   "@atcute/atproto": ^4.0.2
   "@atcute/car": ^6.0.0
