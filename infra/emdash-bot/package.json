@@ -35,6 +35,6 @@
 		"@flue/runtime": "2.0.3",
 		"agents": "^0.20.1",
 		"hono": "4.12.27",
-		"valibot": "^1.4.1"
+		"valibot": "^1.4.2"
 	}
 }
