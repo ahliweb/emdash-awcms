@@ -273,7 +273,7 @@
     "mime": "^4.1.0",
     "modern-tar": "^0.7.5",
     "picocolors": "^1.1.1",
-    "sanitize-html": "^2.17.1",
+    "sanitize-html": "^2.17.7",
     "sax": "^1.4.1",
     "smol-toml": "^1.6.0",
     "ulidx": "^2.4.1",
