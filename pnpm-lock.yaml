@@ -250,8 +250,8 @@ catalogs:
       specifier: 11.11.2
       version: 11.11.2
     hono:
-      specifier: 4.12.27
-      version: 4.12.27
+      specifier: 4.13.5
+      version: 4.13.5
     image-size:
       specifier: 2.0.2
       version: 2.0.2
@@ -501,7 +501,7 @@ importers:
         version: 2.1.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       hono:
         specifier: 'catalog:'
-        version: 4.12.27
+        version: 4.13.5
       jose:
         specifier: ^6.1.3
         version: 6.1.3
@@ -2280,7 +2280,7 @@ importers:
     dependencies:
       hono:
         specifier: 'catalog:'
-        version: 4.12.27
+        version: 4.13.5
       jose:
         specifier: ^6.1.3
         version: 6.1.3
@@ -10001,8 +10001,8 @@ packages:
     resolution: {integrity: sha512-1yrb/+w6HWQJrUCLkJ2IF5jNIPvvFkblV5RNOYl6bV+OA6p9GLcMpHFFGTosSvHvcAUibuUukRqhlYI4z32C7Q==}
     engines: {node: '>=16.9.0'}
 
-  hono@4.12.30:
-    resolution: {integrity: sha512-emn+JoJjrN9YTpRDS5it/UI2SO9BAE37T6I3d963RxcZ81G9A4pr2SZTEiiaiKbzx+NKRg5BZ89fCL7gCJCUog==}
+  hono@4.13.5:
+    resolution: {integrity: sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==}
     engines: {node: '>=16.9.0'}
 
   hookable@6.0.1:
@@ -14735,7 +14735,7 @@ snapshots:
       '@cloudflare/containers': 0.3.7
       aws4fetch: 1.0.20
       capnweb: 0.8.0
-      hono: 4.12.30
+      hono: 4.12.27
 
   '@cloudflare/shell@0.4.0(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.5.4))(ai@6.0.172(zod@4.5.4))(zod@4.5.4)':
     dependencies:
@@ -20448,7 +20448,7 @@ snapshots:
 
   hono@4.12.27: {}
 
-  hono@4.12.30: {}
+  hono@4.13.5: {}
 
   hookable@6.0.1: {}
 
