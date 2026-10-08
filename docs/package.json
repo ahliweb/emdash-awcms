@@ -20,7 +20,7 @@
     "@modelcontextprotocol/sdk": "^1.29.0",
     "agents": "^0.12.0",
     "astro": "^7.3.2",
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.5",
     "starlight-utils": "^1.0.0",
     "tailwindcss": "^4.1.18",
     "wrangler": "catalog:",
