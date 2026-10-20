@@ -246,7 +246,7 @@
     "@emdash-cms/registry-lexicons": "workspace:*",
     "@emdash-cms/registry-verification": "workspace:*",
     "@floating-ui/react": "^0.27.16",
-    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "@oslojs/crypto": "catalog:",
     "@oslojs/encoding": "catalog:",
     "@portabletext/toolkit": "^5.0.1",
