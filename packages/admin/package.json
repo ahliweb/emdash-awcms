@@ -84,7 +84,7 @@
     "@tiptap/y-tiptap": "catalog:",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "dompurify": "^3.3.2",
+    "dompurify": "^3.4.17",
     "highlight.js": "catalog:",
     "lowlight": "catalog:",
     "marked": "^17.0.3",
