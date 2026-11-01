@@ -24,7 +24,7 @@
     "starlight-utils": "^1.0.0",
     "tailwindcss": "^4.1.18",
     "wrangler": "catalog:",
-    "zod": "^4.5.4"
+    "zod": "^4.6.6"
   },
   "overrides": {
     "vite": "^8"
